@@ -22,7 +22,6 @@ public class seive {
             }
         }
 
-        // Step 3: Print primes
         System.out.println("Prime numbers up to " + n + ":");
         for (int i = 2; i <= n; i++) {
             if (prime[i] == 1) {
